@@ -1,11 +1,8 @@
-
-   
 body
 {
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-
 .flexible-container
 {
     display: flex;
@@ -26,7 +23,6 @@ h2
     font-weight: bolder;
 }
 
-
 .half-width
 {
     width: 50%;
@@ -46,10 +42,13 @@ h2
     background-color: rgb(207, 37, 37);
     text-decoration: none;
     padding: 10px 30px;
-    border-radius: 5px;
-    
+    border-radius: 8px;
 }
-
+.button
+{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
 .top-portion
 {
     padding-left: 150px;
@@ -72,7 +71,6 @@ h2
 {
     width: 50%;
 }
-
 .services
 {
     margin: 80px 110px;
@@ -87,18 +85,17 @@ h2
 }
 #second
 {
-    background-color: rgb(235, 215, 220);
+    background-color: rgb(245, 233, 236);
 }
 #third
 {
-    background-color: rgb(240, 214, 205);
+    background-color: rgb(245, 230, 225);
 }
 .resources
 {
     padding-left: 40px;
     padding-right: 200px;
 }
-
 .resources img
 {
     padding: 20px 100px;
@@ -108,7 +105,6 @@ h2
     background-position: left;
 
 }
-
 .community 
 {
     padding: 90px 150px;
@@ -123,6 +119,14 @@ h2
     padding-left: 180px;
 }
 .extra-portion
-{
+{   
     padding: 50px 110px;
+}
+footer
+{
+    background-color: rgb(65, 59, 59);
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
