@@ -18,6 +18,11 @@ h1
     margin: 0;
     
 }
+h2
+{
+    font-size: 30px;
+    font-weight: bolder;
+}
 
 
 .half-width
@@ -27,6 +32,7 @@ h1
 .half-width img
 {
     width: 60%;
+    position: right;
 }
 .top-left
 {
@@ -84,4 +90,19 @@ h1
 #third
 {
     background-color: rgb(240, 214, 205);
+}
+.resources
+{
+    padding-left: 40px;
+}
+
+.resources img
+{
+    padding: 20px 100px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: left;
+
+    
 }
