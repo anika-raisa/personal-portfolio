@@ -1,3 +1,5 @@
+
+   
 body
 {
     font-family: 'Poppins', sans-serif;
@@ -94,6 +96,7 @@ h2
 .resources
 {
     padding-left: 40px;
+    padding-right: 200px;
 }
 
 .resources img
@@ -104,5 +107,18 @@ h2
     background-size: 40%;
     background-position: left;
 
-    
+}
+
+.community 
+{
+    padding: 90px 150px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position-x:93%;
+    background-position-y: bottom;
+}
+.community img
+{
+    padding-left: 180px;
 }
